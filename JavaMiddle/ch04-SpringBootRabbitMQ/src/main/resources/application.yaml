@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: 192.168.75.130
+    username: admin
+    password: 123
+    port: 5672
+    publisher-confirm-type: correlated
+    template:
+      mandatory: true
